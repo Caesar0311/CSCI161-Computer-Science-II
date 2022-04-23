@@ -1,0 +1,40 @@
+# Application Name 
+
+Count a set of data and list its size, maximum and minimum, sort it, and then output
+
+
+
+## Technology
+iostream used 
+gdb debugger used 
+GCC compiler used
+pointer and reference used
+
+
+
+
+## Build and Installation
+
+Go to assignment1 folder and type [make] in terminal
+
+
+
+
+## Usage
+go assignment1 folder, type
+./bin/assignment1 <input file> <output file>
+eg: ./bin/assignment1 /resource/data.txt out
+
+
+
+
+
+## Contributors
+
+Haochuan Shi (Caesar)
+
+
+
+## License
+
+could use for all csci 161 students
