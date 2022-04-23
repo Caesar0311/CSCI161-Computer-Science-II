@@ -1,0 +1,51 @@
+# Application Name 
+
+The application is to implement sorting algorithms (Bubble, Selection, Insertion, Merge, and Quick).
+It can read data from file and sort the data with these sorting algorithms, then save the sorted 
+data into another file.
+
+
+## Technologies
+
+
+
+Implementing sorting algorithms (Bubble, Selection, Insertion, Merge, and Quick).
+Using pointers, references, and dynamic memory allocation.
+Using ifstream and ofstream to read from and write into files
+Organizing C++ application into appropriate folders.
+Separating the specification from the implementation.
+Writing the application’s main function in a separate file.
+Generate separate object files from all the source files.
+Linking the object files into executable files.
+Writing Makefile to aid in building the application.
+Building (compiling and linking) the application using make.
+
+
+## Build and Installation
+
+
+cd assignment2
+make all
+
+the executable files are generated in assignment2\bin.
+
+
+## Usage
+
+
+bin/sort_bubble resource/input.txt resource/output_bubble.txt
+bin/sort_selection resource/input.txt resource/output_selection.txt
+bin/sort_insertion resource/input.txt resource/output_insertion.txt
+bin/sort_merge resource/input.txt resource/output_merge.txt
+bin/sort_quick resource/input.txt resource/output_quick.txt
+
+
+## Contributors
+
+
+Caesar(Haochuan Shi)
+
+## License
+
+
+For csci 161 assignment2

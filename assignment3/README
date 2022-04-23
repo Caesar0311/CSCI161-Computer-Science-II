@@ -1,0 +1,56 @@
+# Application Name 
+
+This application is to implement operations of the linked list and the files. The operations 
+of the files are to load from the file to the linked list and save the linked list to the file, 
+the operations of the linked list is insertion, deletion, search and so on.
+
+
+
+
+## Technologies
+
+Creating and using Linked List.
+Using pointers, references, and dynamic memory allocation.
+Using ifstream and ofstrem to read from and write into files.
+Organizing C++ application into appropriate folders.
+Separating the specification from the implementation.
+Writing the application’s main function in a separate file.
+Generate separate object files from all the source files.
+Linking the object files into single executable file.
+Writing Makefile to aid in building the application.
+Building (compiling and linking) the application using make.
+
+
+
+## Build and Installation
+
+Instructions on how to build and install the application are,
+
+cd assignment3
+make
+
+
+
+
+
+## Usage
+
+Instructions on how to run the application are,
+
+cd assignment3
+./bin/assignment3 resource/input.txt resource/output.txt
+
+
+
+## Contributors
+
+List of the contributors goes here.
+
+Caesar Shi
+
+
+## License
+
+Terms and conditions or the types of licenses granted to use this application go here.
+
+Using for csci161 assignment3
