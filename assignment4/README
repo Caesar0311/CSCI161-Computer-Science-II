@@ -1,0 +1,61 @@
+# Application Name 
+
+The applications are to implement operations of the dynamic array, simple set and the files,
+the operations of the dynamic array are insertion, deletion, clear and so on, the operations
+of the simple set are union, intersection, subtraction and so on, and the simple set class 
+inherited from the dynamic array class. The operations of the files are to load from the file
+to the dynamic array or simple set, and save the dynamic array or simple set to the file. 
+The application names are dynamicarray and simpleset.
+
+
+
+## Technologies
+
+Creating and using Dynamic Array class.
+Creating and using Simple Set class.
+Creating class constructors, destructors, copy and move constructors, and copy and move assignment operators.
+Overloading operators (+, -, *, ++, --, [], >>, <<).
+Using friend function.
+Using inheritance.
+Overriding inherited function.
+Using runtime polymorphism with virtual function.
+Using ifstream and ofstrem to read from and write into files.
+Organizing C++ application into appropriate folders.
+Separating the specification from the implementation.
+Writing the application’s main function in a separate file.
+Generate separate object files from all the source files.
+Linking the object files into single executable file.
+Writing Makefile to aid in building the application.
+Building (compiling and linking) the application using make.
+
+
+
+## Build and Installation
+
+cd assignment4
+make
+
+
+
+## Usage
+
+Instructions on how to run the programs are,
+
+cd assignment4
+bin/dynamicarray resource/fibonacci.txt resource/arrayoutput.txt
+bin/simpleset resource/primes.txt resource/fibonacci.txt resource/setoutput.txt
+
+
+
+## Contributors
+
+List of the contributors goes here.
+
+Caesar	
+
+
+## License
+
+Terms and conditions or the types of licenses granted to use this application go here.
+
+For viu csci161 assignment4

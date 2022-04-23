@@ -1,0 +1,54 @@
+# Application Name 
+
+Implementation of class ArrayMap and LinkedMap 
+
+
+
+
+## Technologies
+
+ArrayMap: Use array to store keys and values. Search keys/values by traversing the key/value array. Put key-value pair by adding element at the end of the array if the key does not exist. Remove key-value pair by searching the key position and deleting the element at the position of key array and value array.
+
+LinkedMap: Implemented by linked. Each node of the linked list is a struct variable that stores a key-value pair and a pointer to the next node. Search keys/values by traversing the linked list. Put key/value pair by adding a new node to the end of the linked list. Remove key-value pair by searching the linked list for the key position, re-pointing  the next pointer of the former node to the next node,  and deleting the current node to free the useless space.
+
+
+
+
+## Build and Installation
+
+Build:
+
+```shell
+make
+```
+
+
+
+
+## Usage
+
+Run:
+
+```shell
+bin/assignment5
+```
+
+Delete executable files:
+
+```shell
+make cleans
+```
+
+
+
+
+## Contributors
+
+Caesar Shi	
+
+
+
+
+## License
+
+For csci 161 assignment5
